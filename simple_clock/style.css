@@ -1,0 +1,61 @@
+@font-face{
+    src: url("digital-7.ttf");
+    font-family: digit;
+}
+body{
+    width: 99vw;
+    height:100vh;
+    background:linear-gradient(to bottom left,#dce4e7,#dae2e5 );
+    background-repeat: no-repeat;
+}
+.icontainer{
+    width: 750px;
+    height: 300px;
+    background-color: #0f1620;
+}
+
+.container{
+    position: relative;
+    top: 200px;
+    left: 100px;
+    width: 750px;
+    height: 300px;
+    border: 40px solid #272e38;
+    border-radius: 50px;
+}
+.day{
+    width: 750px;
+    height: 50px;
+    margin-left: 25px;
+    padding-top: 20px;
+    /* border: 2px solid red; */
+}
+.day div{
+    float: left;
+    font-size: 30px;
+    font-family: digit;
+    font-weight:500;
+    margin: 5px 30px;
+    color: #333742;
+
+}
+.time{
+    width: 750px;
+    height: 250px;
+    margin:0px 0px;
+}
+
+.hour,.minute,.second,.blink{
+    float:left;
+    color: seashell;
+    font-family: digit;
+    margin: 0px 25px;
+}
+.hour,.minute,.second{
+    font-size: 250px;
+}
+.blink{
+    font-size: 120px;
+    margin-top: 30px;
+    margin: 50px 0px;
+}
